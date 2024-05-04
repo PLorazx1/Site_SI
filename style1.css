@@ -49,3 +49,7 @@ tbody td {
     padding: 8px;
     border: 1px solid #FFE7B5;
 }
+
+body section#iframe {
+    text-align: center;
+}
