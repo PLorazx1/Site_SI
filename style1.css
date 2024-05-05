@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Freeman&family=Poetsen+One&display=swap');
+
+:root{
+    --cor1: #F2CEA2;
+    --cor2: #D9AB82;
+    --cor3: #A67449;
+    --cor4: #734C29;
+    --cor5: #402915;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+a {
+    all: unset;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    background-color: var(--cor5);
+    padding: 20px 0;
+    width: 100%;
+}
+
+header h1, header h2 {
+    margin: 0;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Poetsen One', sans-serif;
+}
+
+header img{
+    /* display: inline; */
+    float: left;
+    text-align: left;
+    width: 100px;
+    height: 100px;
+}
+
+header img#user {
+    text-align: right;
+    float: right;
+    width: 60px;
+    height: 60px;
+}
+
+nav{
+    background-color: var(--cor4);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav a{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+ 
+nav a:hover{
+    background-color: var(--cor3);
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+body section#iframe {
+    margin-top: 25px;
+    text-align: center;
+}
+
+footer{
+    background-color: var(--cor5);
+    min-height: 100px;
+    height: auto;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
