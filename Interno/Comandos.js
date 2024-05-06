@@ -44,5 +44,5 @@ function Interno(){
 }
 
 function Externo(){
-    window.location.href = "Externo/login.html";
+    window.location.href = "Cliente/login.html";
 }
