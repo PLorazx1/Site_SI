@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Nova Senha - Doceria Alfa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Doceria Alfa</h1>
+    </div>
+</header>
+
+<section id="criar-senha">
+    <div class="container">
+        <h2>Criar Nova Senha</h2>
+        <p>Por favor, crie uma nova senha:</p>
+        <form action="login.html" method="POST">
+            <label for="nova-senha">Nova Senha:</label>
+            <input type="password" id="nova-senha" name="nova_senha" required>
+            <label for="confirmar-senha">Confirmar Senha:</label>
+            <input type="password" id="confirmar-senha" name="confirmar_senha" required>
+            <button type="submit">Criar Senha</button>
+        </form>
+        <script>
+            // Verificar se as senhas são iguais ao enviar o formulário
+            document.querySelector("form").onsubmit = function() {
+                var senha1 = document.getElementById("nova-senha").value;
+                var senha2 = document.getElementById("confirmar-senha").value;
+                if (senha1 !== senha2) {
+                    alert("As senhas digitadas estão diferentes. Por favor, digite-as novamente.");
+                    return false; // Impede o envio do formulário
+                }
+            }
+        </script>
+    </div>
+</section>
+
+
+
+</body>
+</html>
