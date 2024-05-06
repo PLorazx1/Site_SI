@@ -17,6 +17,7 @@
 
 a {
     all: unset;
+    cursor: pointer;
 }
 
 .container {

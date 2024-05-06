@@ -26,7 +26,11 @@ header{
     background-color: #402915;
     max-height: 100px;
 }
-header > h1{
+header a{
+    all: unset;
+    cursor: pointer;
+}
+header a h1{
     font-family: 'Poetsen One', sans-serif;;
     font-size: 3em;
     color: white;
