@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #F2CEA2;
+    --cor2: #D9AB82;
+    --cor3: #A67449;
+    --cor4: #734C29;
+    --cor5: #402915;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Freeman&family=Poetsen+One&display=swap');
+
+*{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+header{
+    background-color: #402915;
+    max-height: 110px;
+}
+
+header > h1{
+    font-family: 'Poetsen One', sans-serif;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+header > img{
+    margin-bottom: -90px;
+}
+
+nav{
+    background-color: var(--cor4);
+    height: 25px;   
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav > a{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+}
+
+nav > a:hover{
+    background-color: var(--cor3);
+}
+
+main{
+    height: auto;
+}
+
+.suporte > h2{
+    font-family: 'Poetsen One', sans-serif;
+    font-size: 3em;
+    color: var(--cor5);
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+.suporte > p{
+    font-family: 'Poetsen One', sans-serif;
+    font-size: 2em;
+    color: var(--cor5);
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+.wpp > p{
+    font-family: 'Poetsen One', sans-serif;
+    font-size: 2em;
+    color: var(--cor5);
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+.wpp > p > a{
+    text-decoration: none;
+    color: var(--cor1);
+    border: 2px;
+    border-color: var(--cor5);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--cor5);
+}
+
+footer{
+    background-color: var(--cor5);
+    min-height: 100px;
+    height: auto;
+    margin-top: 150px;
+
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+    
