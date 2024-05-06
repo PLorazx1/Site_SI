@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro - Doceria Alfa</title>
     <link rel="stylesheet" href="login.css">
+    <script src="Comandos.js"></script>
 </head>
 <body>
 
 <div class="container">
     <div class="registro-form">
         <h2>Registro - Doceria Alfa</h2>
-        <form action="login.html" method="post">
+        <form action="#" method="post">
             <div class="form-group">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required>
@@ -24,7 +25,7 @@
                 <label for="password">Senha:</label>
                 <input type="password" id="password" name="password" required>
             </div>
-            <button type="submit">Registrar</button>
+            <button type="button" onclick="Login()">Registrar</button>
         </form>
         <p class="login-link">Já tem uma conta? <a href="login.html">Faça login aqui</a>.</p>
     </div>
