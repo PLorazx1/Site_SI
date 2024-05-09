@@ -1,9 +1,5 @@
 function Entrar(){
-    var login = document.getElementById("login").value;
-    if (login === 'admin') {
-        window.location.href = "home.html";
-    } 
-    else alert("Login ou Senha inválidos");
+    window.location.href = "home.html";
 }
 
 function Redefiniu(){
